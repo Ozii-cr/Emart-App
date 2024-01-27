@@ -11,7 +11,7 @@ RUN apt update && apt install -y maven
 COPY ./ ./
 
 # Build the Java application while skipping the tests
-RUN mvn install -Dskiptests
+RUN mvn install -DskipTests
 
 #Stage 2: Copy the artifact
 FROM openjdk:8 
