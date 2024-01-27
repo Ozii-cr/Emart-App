@@ -10,13 +10,14 @@ services:
             [api, webapi]
 
     api:
+        restart: always
         build: 
             context: ./nodeapi
         ports:
             - "5000:5000"
         container_name: api
         depends_on:
-            [nginx, emongodb]
+            [emongodb]
 
     webapi:
         restart: always
