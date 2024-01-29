@@ -24,6 +24,7 @@ COPY --from=build /usr/src/app/target/book-work-0.0.1-SNAPSHOT.jar ./book-work-0
 
 
 # Expose the port the API will run on
+
 EXPOSE 9000
 
 #  command to run the Java application
