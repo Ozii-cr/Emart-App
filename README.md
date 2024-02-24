@@ -38,3 +38,21 @@ Run
 ```bash
   docker-compose up -d 
 ```
+
+## Run using Bash script
+This can be provisioned in a virtualised machine or in a cloud environment.
+
+For an Ubuntu Machine
+- copy the script in the 'Ubuntu-Docker.sh' 
+
+For a centOS Machine
+- copy the script in the 'CentOS-Docker.sh' 
+
+
+
+
+
+
+```bash
+  docker-compose up -d 
+```
