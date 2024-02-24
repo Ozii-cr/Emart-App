@@ -18,3 +18,9 @@ sudo apt-get update
 
 # Add ubuntu user into docker group
     sudo usermod -a -G docker ubuntu
+
+# Clone the git repository
+  git clone https://github.com/Ozii-cr/Emart-App.git && cd Emart-App/
+
+# Run docker-compose 
+  docker-compose up -d 
