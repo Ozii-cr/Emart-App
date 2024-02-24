@@ -49,10 +49,3 @@ For a centOS Machine
 - copy the script in the 'CentOS-Docker.sh' 
 
 
-
-
-
-
-```bash
-  docker-compose up -d 
-```
